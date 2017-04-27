@@ -54,8 +54,19 @@ main {
   margin-left: auto;
 }
 
-main .square-img {
+.square-imgcat, .square-imgdog {
   height: 200px;
   width: 200px;
   position: absolute;
 }
+
+.square-imgcat {
+  top: 15px;
+  left: 55px;
+}
+
+.square-imgdog {
+  bottom: 15px;
+  right: 55px;
+}
+
